@@ -1,0 +1,39 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#todo-list {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#tasks {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.task:hover {
+    background-color: #e7e7e7;
+}
+
+.task.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#task-form {
+    margin-top: 20px;
+}
+
+#task-input {
+    width: 200px;
+    padding: 5px;
+}
