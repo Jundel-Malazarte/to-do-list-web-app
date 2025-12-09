@@ -10,8 +10,24 @@
 
 - Basic back-end (like Node.js with a local storage/file-based DB).
 
-### Future Idea
+### Future Ideas || Suggestions
 - Add drag-and-drop reordering.
+- Re-designing the web interface
+- Supports both Desktop & Mobile viewing
+- Make web app responsive
+- User-friendly web app
+- Modern Design + Responsive
+
+### File Structure:
+```bash
+/todo-list-web-app
+├── package.json          <-- CORRECT LOCATION
+├── package-lock.json     <-- CORRECT LOCATION
+├── README.md
+├── backend/
+│   └── server.js         <-- Your server code
+└── public/               <-- Your frontend code (HTML, CSS, JS)
+```
 
 ### To Clone this repository:
 ```bash
@@ -42,7 +58,7 @@ Install Express.js
 npm install express
 ```
 
-### To Run this web app:
+### You can simply run:
 ```bash
 npm start
 ```
