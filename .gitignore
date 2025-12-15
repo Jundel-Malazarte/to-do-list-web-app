@@ -1,5 +1,4 @@
 /node_modules
-/.env
 backend/tasks.json
 .DS_Store
 /dist 
@@ -10,3 +9,8 @@ backend/tasks.json
 /.vscode
 /.idea
 /.cache
+
+.env
+.env.local
+.env.*.local
+backend/tasks.json
