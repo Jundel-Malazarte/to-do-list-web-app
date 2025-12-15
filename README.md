@@ -22,12 +22,14 @@
 ### File Structure:
 ```bash
 /todo-list-web-app
-├── package.json          <-- CORRECT LOCATION
-├── package-lock.json     <-- CORRECT LOCATION
+├── package.json
+├── package-lock.json
+├── .env
 ├── README.md
 ├── backend/
-│   └── server.js         <-- Your server code
-└── public/               <-- Your frontend code (HTML, CSS, JS)
+│   └── server.js
+└── public/
+    └── index.html
 ```
 
 ### To Clone this repository:

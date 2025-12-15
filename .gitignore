@@ -1,5 +1,6 @@
 /node_modules
 /.env
+backend/tasks.json
 .DS_Store
 /dist 
 /logs

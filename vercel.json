@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "npm install",
+  "outputDirectory": "public",
+  "env": {
+    "PORT": "@port"
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
